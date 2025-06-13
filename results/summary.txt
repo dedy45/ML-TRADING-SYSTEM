@@ -1,0 +1,31 @@
+
+TRADING ML RESULTS SUMMARY
+==========================
+
+Data Processing:
+- Total trades analyzed: 837
+- Features created: 8
+- Win rate in data: 41.8%
+
+Model Performance:
+- Algorithm: Random Forest
+- Test accuracy: 0.567 (56.7%)
+- Test size: 252 trades
+
+Top Features:
+feature  importance
+  price    0.488057
+sl_size    0.205456
+tp_size    0.198229
+
+Files Created:
+- results/processed_data.csv
+- results/features.csv  
+- results/predictions.csv
+- simple_models/trading_model.joblib
+
+Next Steps:
+1. Review files in results/ folder
+2. If satisfied with accuracy, scale up to more data
+3. Consider adding more features
+4. Test on new data

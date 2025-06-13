@@ -1,0 +1,52 @@
+dataBT/
+datatickxau/
+*.csv
+*.log
+*.pkl
+*.h5
+# Folder lingkungan virtual
+# Sangat penting untuk diabaikan!
+venv/
+.venv/
+env/
+.env/
+datatickxau/
+# Folder cache dan compile Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Folder IDE/Editor
+.vscode/
+.idea/
+
+# File Kredensial dan Rahasia (SANGAT PENTING!)
+.env
+*.env
+credentials.json
+kunci_rahasia.txt
+
+# Dataset
+# Jangan upload data besar ke GitHub
+*.csv
+*.xlsx
+*.xls
+*.db
+*.sqlite
+data/
+
+# Output, Model, dan Log
+*.log
+*.h5
+*.pkl
+*.joblib
+model_results/
+plots/
+
+# Notebook Checkpoints
+.ipynb_checkpoints/
+
+# File sistem operasi
+.DS_Store
+Thumbs.db

@@ -1,0 +1,44 @@
+FIBONACCI ANALYSIS RESULTS
+==================================================
+
+Files Processed: 10
+Total Trades: 1786
+Fibonacci Levels: 10
+
+FIBONACCI LEVEL PERFORMANCE:
+------------------------------
+Level B_0:
+  Trades: 639
+  Win Rate: 54.8%
+  Avg Profit: 4.95
+
+Level B_1.8:
+  Trades: 154
+  Win Rate: 46.8%
+  Avg Profit: 2.57
+
+Level S_1:
+  Trades: 813
+  Win Rate: 35.9%
+  Avg Profit: -5.68
+
+Level B_-1.8:
+  Trades: 15
+  Win Rate: 33.3%
+  Avg Profit: 4.84
+
+Level B_3.6:
+  Trades: 6
+  Win Rate: 33.3%
+  Avg Profit: -5.76
+
+Level S_-0.9:
+  Trades: 123
+  Win Rate: 32.5%
+  Avg Profit: -6.13
+
+Level S_2.7:
+  Trades: 27
+  Win Rate: 25.9%
+  Avg Profit: -8.91
+

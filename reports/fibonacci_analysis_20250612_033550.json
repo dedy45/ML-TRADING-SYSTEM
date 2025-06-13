@@ -1,0 +1,147 @@
+{
+  "timestamp": "2025-06-12T03:35:50.093605",
+  "total_trades": 4933,
+  "profitable_trades": 2061,
+  "fibonacci_levels": {
+    "B_0": {
+      "total_trades": 1502,
+      "profitable_trades": 760,
+      "win_rate": 0.5059920106524634,
+      "avg_profit": 2.8201531291611186,
+      "total_profit": 4235.87
+    },
+    "B_1.8": {
+      "total_trades": 615,
+      "profitable_trades": 302,
+      "win_rate": 0.49105691056910566,
+      "avg_profit": 2.8389756097560976,
+      "total_profit": 1745.97
+    },
+    "DEINIT_COMPLETE": {
+      "total_trades": 15,
+      "profitable_trades": 0,
+      "win_rate": 0.0,
+      "avg_profit": 0.0,
+      "total_profit": 0.0
+    },
+    "SESSION_COMPLETE": {
+      "total_trades": 15,
+      "profitable_trades": 0,
+      "win_rate": 0.0,
+      "avg_profit": 0.0,
+      "total_profit": 0.0
+    },
+    "S_-0.9": {
+      "total_trades": 499,
+      "profitable_trades": 178,
+      "win_rate": 0.35671342685370744,
+      "avg_profit": -1.7616432865731462,
+      "total_profit": -879.06
+    },
+    "S_1": {
+      "total_trades": 1826,
+      "profitable_trades": 637,
+      "win_rate": 0.3488499452354874,
+      "avg_profit": -4.863357064622125,
+      "total_profit": -8880.49
+    },
+    "B_-1.8": {
+      "total_trades": 136,
+      "profitable_trades": 53,
+      "win_rate": 0.3897058823529412,
+      "avg_profit": -0.48463235294117646,
+      "total_profit": -65.91
+    },
+    "B_-3.6": {
+      "total_trades": 30,
+      "profitable_trades": 15,
+      "win_rate": 0.5,
+      "avg_profit": 6.083333333333334,
+      "total_profit": 182.50000000000003
+    },
+    "B_3.6": {
+      "total_trades": 40,
+      "profitable_trades": 15,
+      "win_rate": 0.375,
+      "avg_profit": -2.60175,
+      "total_profit": -104.07000000000001
+    },
+    "S_-2.7": {
+      "total_trades": 39,
+      "profitable_trades": 17,
+      "win_rate": 0.4358974358974359,
+      "avg_profit": -0.7158974358974363,
+      "total_profit": -27.920000000000016
+    },
+    "S_-4.5": {
+      "total_trades": 22,
+      "profitable_trades": 5,
+      "win_rate": 0.22727272727272727,
+      "avg_profit": -7.221818181818182,
+      "total_profit": -158.88
+    },
+    "S_2.7": {
+      "total_trades": 108,
+      "profitable_trades": 39,
+      "win_rate": 0.3611111111111111,
+      "avg_profit": -3.4384259259259258,
+      "total_profit": -371.34999999999997
+    },
+    "S_4.5": {
+      "total_trades": 24,
+      "profitable_trades": 15,
+      "win_rate": 0.625,
+      "avg_profit": 12.918750000000001,
+      "total_profit": 310.05
+    },
+    "B_5.4": {
+      "total_trades": 1,
+      "profitable_trades": 0,
+      "win_rate": 0.0,
+      "avg_profit": -17.02,
+      "total_profit": -17.02
+    },
+    "B_-5.4": {
+      "total_trades": 17,
+      "profitable_trades": 7,
+      "win_rate": 0.4117647058823529,
+      "avg_profit": -1.8347058823529412,
+      "total_profit": -31.19
+    },
+    "B_-7.2": {
+      "total_trades": 14,
+      "profitable_trades": 8,
+      "win_rate": 0.5714285714285714,
+      "avg_profit": -0.15357142857142855,
+      "total_profit": -2.15
+    },
+    "B_-9.1": {
+      "total_trades": 2,
+      "profitable_trades": 1,
+      "win_rate": 0.5,
+      "avg_profit": 8.485,
+      "total_profit": 16.97
+    },
+    "S_-6.3": {
+      "total_trades": 17,
+      "profitable_trades": 4,
+      "win_rate": 0.23529411764705882,
+      "avg_profit": -5.69,
+      "total_profit": -96.73
+    },
+    "S_-8.1": {
+      "total_trades": 9,
+      "profitable_trades": 4,
+      "win_rate": 0.4444444444444444,
+      "avg_profit": 1.411111111111111,
+      "total_profit": 12.7
+    },
+    "S_-9.9": {
+      "total_trades": 2,
+      "profitable_trades": 1,
+      "win_rate": 0.5,
+      "avg_profit": -1.025,
+      "total_profit": -2.05
+    }
+  }
+}

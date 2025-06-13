@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/aiml/MLFLOW/mlruns/686729781492916162/322f6d718df84005925f6c240c13940a/artifacts
+end_time: 1749756999365
+entry_point_name: ''
+experiment_id: '686729781492916162'
+lifecycle_stage: active
+run_id: 322f6d718df84005925f6c240c13940a
+run_name: serious-kit-554
+run_uuid: 322f6d718df84005925f6c240c13940a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749756997900
+status: 3
+tags: []
+user_id: dedy

@@ -1,0 +1,49 @@
+# Simplified Anaconda Environment Configuration for Deep Learning Fibonacci
+# Gunakan: conda env create -f environment_simplified.yml
+# Aktivasi: conda activate fibonacci-ml-simple
+
+name: fibonacci-ml-simple
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Python version
+  - python=3.11
+  
+  # Core ML libraries (let conda resolve versions automatically)
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  
+  # Deep Learning
+  - tensorflow
+  - keras
+  
+  # MLflow for experiment tracking
+  - mlflow
+  
+  # Data visualization
+  - matplotlib
+  - seaborn
+  - plotly
+  
+  # Data processing
+  - openpyxl
+  - xlrd
+  
+  # Utilities
+  - joblib
+  - tqdm
+  - python-dotenv
+  - pyyaml
+  
+  # Development tools
+  - jupyter
+  - ipykernel
+  - notebook
+    # Additional dependencies via pip
+  - pip
+  - pip:
+    - retrying

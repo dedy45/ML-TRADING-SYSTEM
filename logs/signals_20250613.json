@@ -1,0 +1,119 @@
+[
+  {
+    "timestamp": "2025-06-13T04:32:24.150737",
+    "market_data": {
+      "LevelFibo": "B_0",
+      "Type": "BUY",
+      "SessionEurope": 1,
+      "SessionUS": 0,
+      "SessionAsia": 0,
+      "OpenPrice": 2650.75,
+      "TP": 2655.75,
+      "SL": 2648.25,
+      "Volume": 0.1
+    },
+    "models_results": {
+      "fibonacci": {
+        "result": {
+          "timestamp": "2025-06-13T04:32:24.150737",
+          "fibonacci_level": "B_0",
+          "trade_type": "BUY",
+          "signal_strength": "STRONG",
+          "confidence": "HIGH",
+          "expected_win_rate": 53.4,
+          "recommendation": "TAKE_TRADE",
+          "risk_reward_ratio": 1.0,
+          "session_active": "Europe",
+          "notes": "PRIMARY SIGNAL: Highest volume (3,106 trades) with 52.4% win rate"
+        },
+        "probability": 0.65,
+        "recommendation": "TAKE_TRADE"
+      }
+    },
+    "consensus": {
+      "average_probability": 0.65,
+      "consensus_strength": 1.0,
+      "agreement_score": 1.0,
+      "model_count": 1
+    },
+    "final_recommendation": "STRONG_TAKE_TRADE"
+  },
+  {
+    "timestamp": "2025-06-13T04:32:27.154758",
+    "market_data": {
+      "LevelFibo": "B_-1.8",
+      "Type": "BUY",
+      "SessionEurope": 0,
+      "SessionUS": 1,
+      "SessionAsia": 0,
+      "OpenPrice": 2651.2,
+      "TP": 2656.7,
+      "SL": 2648.7,
+      "Volume": 0.2
+    },
+    "models_results": {
+      "fibonacci": {
+        "result": {
+          "timestamp": "2025-06-13T04:32:27.154758",
+          "fibonacci_level": "B_-1.8",
+          "trade_type": "BUY",
+          "signal_strength": "STRONG",
+          "confidence": "HIGH",
+          "expected_win_rate": 53.0,
+          "recommendation": "TAKE_TRADE",
+          "risk_reward_ratio": 1.0,
+          "session_active": "US",
+          "notes": "HIGH CONFIDENCE: 52.5% win rate, selective entry recommended"
+        },
+        "probability": 0.65,
+        "recommendation": "TAKE_TRADE"
+      }
+    },
+    "consensus": {
+      "average_probability": 0.65,
+      "consensus_strength": 1.0,
+      "agreement_score": 1.0,
+      "model_count": 1
+    },
+    "final_recommendation": "STRONG_TAKE_TRADE"
+  },
+  {
+    "timestamp": "2025-06-13T04:32:30.157719",
+    "market_data": {
+      "LevelFibo": "S_1",
+      "Type": "SELL",
+      "SessionEurope": 0,
+      "SessionUS": 0,
+      "SessionAsia": 1,
+      "OpenPrice": 2652.8,
+      "TP": 2647.3,
+      "SL": 2655.3,
+      "Volume": 0.15
+    },
+    "models_results": {
+      "fibonacci": {
+        "result": {
+          "timestamp": "2025-06-13T04:32:30.157719",
+          "fibonacci_level": "S_1",
+          "trade_type": "SELL",
+          "signal_strength": "AVOID",
+          "confidence": "LOW",
+          "expected_win_rate": 30.3,
+          "recommendation": "AVOID_TRADE",
+          "risk_reward_ratio": 1.0,
+          "session_active": "Asia",
+          "notes": "LOW PROBABILITY: Consider avoiding this setup"
+        },
+        "probability": 0.3,
+        "recommendation": "AVOID_TRADE"
+      }
+    },
+    "consensus": {
+      "average_probability": 0.3,
+      "consensus_strength": 0.0,
+      "agreement_score": 1.0,
+      "model_count": 1
+    },
+    "final_recommendation": "AVOID_TRADE"
+  }
+]

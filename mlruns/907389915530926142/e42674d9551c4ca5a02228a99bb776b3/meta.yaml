@@ -1,0 +1,14 @@
+artifact_uri: file:E:/aiml/MLFLOW/mlruns/907389915530926142/e42674d9551c4ca5a02228a99bb776b3/artifacts
+end_time: 1749668268548
+entry_point_name: ''
+experiment_id: '907389915530926142'
+lifecycle_stage: active
+run_id: e42674d9551c4ca5a02228a99bb776b3
+run_name: RandomForest_is_profitable
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749668257850
+status: 3
+tags: []
+user_id: dedy

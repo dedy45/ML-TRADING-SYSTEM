@@ -1,0 +1,4 @@
+{"timestamp": "2025-06-13T00:50:47.821979", "level": "\u001b[32mINFO\u001b[0m", "logger": "deep_learning_fibonacci", "message": "Logger initialized: deep_learning_fibonacci", "module": "logging_utils", "function": "__init__", "line": 74}
+{"timestamp": "2025-06-13T00:50:48.071448", "level": "\u001b[33mWARNING\u001b[0m", "logger": "deep_learning_fibonacci", "message": "⚠️ MLflow not available", "module": "logging_utils", "function": "_log_with_extra", "line": 104}
+{"timestamp": "2025-06-13T00:50:48.072448", "level": "\u001b[33mWARNING\u001b[0m", "logger": "deep_learning_fibonacci", "message": "⚠️ TensorFlow not available, using scikit-learn alternative", "module": "logging_utils", "function": "_log_with_extra", "line": 104}
+{"timestamp": "2025-06-13T00:50:49.204500", "level": "\u001b[32mINFO\u001b[0m", "logger": "deep_learning_fibonacci", "message": "✅ Scikit-learn loaded successfully", "module": "logging_utils", "function": "_log_with_extra", "line": 104}

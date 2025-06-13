@@ -1,0 +1,14 @@
+artifact_uri: file:E:/aiml/MLFLOW/mlruns/245144011043306957/5ccd7b45635348fb91703bf9094a6729/artifacts
+end_time: 1749679580346
+entry_point_name: ''
+experiment_id: '245144011043306957'
+lifecycle_stage: active
+run_id: 5ccd7b45635348fb91703bf9094a6729
+run_name: LogisticRegression_is_profitable
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749679573087
+status: 3
+tags: []
+user_id: dedy

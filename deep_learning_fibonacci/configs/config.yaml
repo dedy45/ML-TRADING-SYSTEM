@@ -1,0 +1,166 @@
+# Deep Learning Fibonacci Trading Configuration
+# Main configuration file for all project settings
+
+# Data Paths
+data:
+  raw_data_path: "E:/aiml/MLFLOW/dataBT"  # 544 CSV files
+  tick_data_path: "E:/aiml/MLFLOW/datatickxau"  # 2.7GB tick data
+  processed_path: "data/processed"
+  features_path: "data/features"
+  
+# Original Analysis Results (Baseline to Beat)
+baseline:
+  b_0_level:
+    win_rate: 0.524
+    total_trades: 3106
+    signal_type: "primary"
+  b_minus_1_8_level:
+    win_rate: 0.525
+    total_trades: 120
+    signal_type: "high_confidence"
+  b_1_8_level:
+    win_rate: 0.459
+    total_trades: 945
+    signal_type: "secondary"
+
+# Trading Sessions Performance
+sessions:
+  europe:
+    win_rate: 0.405
+    performance: "best"
+  us:
+    win_rate: 0.401
+    performance: "good"
+  asia:
+    win_rate: 0.397
+    performance: "acceptable"
+
+# Risk Management
+risk_management:
+  tp_sl_ratio: 2.0  # 2:1 Take Profit to Stop Loss
+  position_size: 0.02  # 1-2% of account
+  max_trades_per_day: 5
+  max_drawdown: 0.15  # 15%
+
+# Deep Learning Targets
+targets:
+  win_rate_improvement: 0.055  # Target: 55% minimum
+  win_rate_stretch: 0.058  # Stretch goal: 58%
+  inference_time_ms: 100  # Real-time requirement
+  model_confidence_threshold: 0.7
+
+# Feature Engineering
+features:
+  fibonacci_levels: 
+    - -2.618
+    - -1.8
+    - -1.618
+    - -1.0
+    - -0.618
+    - -0.382
+    - 0.0
+    - 0.382
+    - 0.618
+    - 1.0
+    - 1.618
+    - 1.8
+    - 2.618
+  
+  technical_indicators:
+    - "RSI"
+    - "MACD" 
+    - "Bollinger_Bands"
+    - "Volume_Profile"
+    - "Support_Resistance"
+    
+  price_features:
+    - "OHLC"
+    - "Price_Action_Patterns"
+    - "Candlestick_Patterns"
+    - "Gap_Analysis"
+    
+  time_features:
+    - "Hour_of_Day"
+    - "Day_of_Week" 
+    - "Trading_Session"
+    - "Market_Open_Close"
+
+# Model Architecture
+models:
+  lstm:
+    name: "FibonacciLSTM"
+    sequence_length: 60  # 60 time steps
+    layers:
+      - lstm_units: 128
+        return_sequences: true
+      - lstm_units: 64
+        return_sequences: false
+      - dense_units: 32
+      - dense_units: 16
+      - output_units: 3  # [signal_strength, direction, confidence]
+    dropout: 0.2
+    
+  cnn:
+    name: "FibonacciCNN"
+    input_shape: [32, 32, 4]  # OHLC as image
+    layers:
+      - conv2d_filters: 32
+        kernel_size: [3, 3]
+      - conv2d_filters: 64
+        kernel_size: [3, 3]
+      - conv2d_filters: 128
+        kernel_size: [3, 3]
+      - dense_units: 64
+      - dense_units: 32
+      - output_units: 3
+    dropout: 0.3
+    
+  ensemble:
+    name: "FibonacciEnsemble"
+    lstm_weight: 0.6
+    cnn_weight: 0.4
+    confidence_threshold: 0.7
+
+# Training Configuration
+training:
+  batch_size: 128
+  epochs: 100
+  validation_split: 0.2
+  test_split: 0.1
+  early_stopping_patience: 15
+  learning_rate: 0.001
+  optimizer: "adam"
+  loss: "categorical_crossentropy"
+  metrics: ["accuracy", "precision", "recall", "f1_score"]
+
+# MLflow Experiment Tracking
+mlflow:
+  experiment_name: "deep_learning_fibonacci"
+  tracking_uri: "http://localhost:5000"
+  artifact_location: "experiments/"
+  tags:
+    project: "fibonacci_trading"
+    model_type: "deep_learning"
+    target_metric: "win_rate"
+
+# Data Processing
+processing:
+  chunk_size: 10000  # For large file processing
+  memory_limit_gb: 8
+  parallel_jobs: 4
+  cache_features: true
+  normalize_features: true
+  handle_missing: "interpolate"
+
+# Logging
+logging:
+  level: "INFO"
+  file: "logs/fibonacci_dl.log"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  
+# Production Settings
+production:
+  model_version: "v1.0"
+  deployment_environment: "staging"
+  monitoring_enabled: true
+  alert_threshold: 0.05  # Alert if performance drops 5%

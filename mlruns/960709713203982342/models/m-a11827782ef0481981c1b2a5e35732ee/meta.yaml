@@ -1,0 +1,10 @@
+artifact_location: file:E:/aiml/MLFLOW/mlruns/960709713203982342/models/m-a11827782ef0481981c1b2a5e35732ee/artifacts
+creation_timestamp: 1749670489088
+experiment_id: '960709713203982342'
+last_updated_timestamp: 1749670496734
+model_id: m-a11827782ef0481981c1b2a5e35732ee
+model_type: null
+name: RandomForest_is_profitable
+source_run_id: f81546b1983f4a2381faacbcd96feaf5
+status: 2
+status_message: null

@@ -1,0 +1,6 @@
+artifact_location: file:E:/aiml/MLFLOW/mlruns/960709713203982342
+creation_time: 1749670485369
+experiment_id: '960709713203982342'
+last_update_time: 1749670485369
+lifecycle_stage: active
+name: trading_signal_prediction_fixed

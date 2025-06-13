@@ -1,0 +1,14 @@
+artifact_uri: file:E:/aiml/MLFLOW/mlruns/907389915530926142/e4072cdb94814b9184a2502c62a53eff/artifacts
+end_time: 1749668257075
+entry_point_name: ''
+experiment_id: '907389915530926142'
+lifecycle_stage: active
+run_id: e4072cdb94814b9184a2502c62a53eff
+run_name: feature_engineering
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749668256947
+status: 3
+tags: []
+user_id: dedy

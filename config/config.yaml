@@ -1,0 +1,62 @@
+# Configuration for Trading ML Pipeline
+data:
+  backtest_path: "./dataBT"
+  tick_path: "./datatickxau"
+  processed_path: "./data/processed"
+  features_path: "./data/features"
+
+model:
+  test_size: 0.2
+  validation_size: 0.2
+  random_state: 42
+  cv_folds: 5
+
+features:
+  # Technical indicators periods
+  sma_periods: [5, 10, 20, 50]
+  ema_periods: [12, 26]
+  rsi_period: 14
+  macd_fast: 12
+  macd_slow: 26
+  macd_signal: 9
+  bb_period: 20
+  bb_std: 2
+  
+  # Lag features
+  price_lags: [1, 2, 3, 5, 10]
+  volume_lags: [1, 2, 3]
+
+trading:
+  # Target definition
+  min_profit_threshold: 10  # pips
+  max_loss_threshold: -50   # pips
+  
+  # Risk management
+  risk_reward_ratio: 2.0
+  max_drawdown: 0.1
+  
+mlflow:
+  experiment_name: "trading_signal_prediction"
+  tracking_uri: "./mlruns"
+  
+models:
+  - name: "xgboost"
+    params:
+      n_estimators: [100, 200, 300]
+      max_depth: [3, 5, 7]
+      learning_rate: [0.01, 0.1, 0.2]
+      subsample: [0.8, 0.9, 1.0]
+      
+  - name: "lightgbm"
+    params:
+      n_estimators: [100, 200, 300]
+      max_depth: [3, 5, 7]
+      learning_rate: [0.01, 0.1, 0.2]
+      subsample: [0.8, 0.9, 1.0]
+      
+  - name: "random_forest"
+    params:
+      n_estimators: [100, 200, 300]
+      max_depth: [10, 20, None]
+      min_samples_split: [2, 5, 10]
+      min_samples_leaf: [1, 2, 4]

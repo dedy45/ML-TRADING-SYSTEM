@@ -1,0 +1,221 @@
+{
+  "analysis_timestamp": "2025-06-13T02:31:50.236254",
+  "data_summary": {
+    "total_trades": 9460,
+    "total_files": 30,
+    "date_range": "2024-01-02 05:46:00 to 2024-12-26 23:59:00",
+    "overall_win_rate": 40.23255813953489,
+    "total_profit": -6741.99
+  },
+  "top_fibonacci_levels": {
+    "B_-7.2": {
+      "Total_Trades": 16,
+      "Total_Profit": 113.4,
+      "Avg_Profit": 7.0875,
+      "BUY_Count": 16,
+      "Win_Rate": 62.5,
+      "SELL_Count": 0
+    },
+    "S_4.5": {
+      "Total_Trades": 39,
+      "Total_Profit": 454.72,
+      "Avg_Profit": 11.6595,
+      "BUY_Count": 0,
+      "Win_Rate": 61.54,
+      "SELL_Count": 39
+    },
+    "S_-9.9": {
+      "Total_Trades": 2,
+      "Total_Profit": -2.05,
+      "Avg_Profit": -1.025,
+      "BUY_Count": 0,
+      "Win_Rate": 50.0,
+      "SELL_Count": 2
+    },
+    "B_-9.1": {
+      "Total_Trades": 2,
+      "Total_Profit": 16.97,
+      "Avg_Profit": 8.485,
+      "BUY_Count": 2,
+      "Win_Rate": 50.0,
+      "SELL_Count": 0
+    },
+    "B_0": {
+      "Total_Trades": 2844,
+      "Total_Profit": 10581.09,
+      "Avg_Profit": 3.7205,
+      "BUY_Count": 2844,
+      "Win_Rate": 49.33,
+      "SELL_Count": 0
+    },
+    "B_1.8": {
+      "Total_Trades": 1224,
+      "Total_Profit": 3619.28,
+      "Avg_Profit": 2.9569,
+      "BUY_Count": 1224,
+      "Win_Rate": 46.08,
+      "SELL_Count": 0
+    },
+    "S_-8.1": {
+      "Total_Trades": 9,
+      "Total_Profit": 12.7,
+      "Avg_Profit": 1.4111,
+      "BUY_Count": 0,
+      "Win_Rate": 44.44,
+      "SELL_Count": 9
+    },
+    "B_-3.6": {
+      "Total_Trades": 48,
+      "Total_Profit": 166.78,
+      "Avg_Profit": 3.4746,
+      "BUY_Count": 48,
+      "Win_Rate": 41.67,
+      "SELL_Count": 0
+    },
+    "B_-1.8": {
+      "Total_Trades": 284,
+      "Total_Profit": -120.36,
+      "Avg_Profit": -0.4238,
+      "BUY_Count": 284,
+      "Win_Rate": 39.08,
+      "SELL_Count": 0
+    },
+    "B_3.6": {
+      "Total_Trades": 78,
+      "Total_Profit": -169.01,
+      "Avg_Profit": -2.1668,
+      "BUY_Count": 78,
+      "Win_Rate": 38.46,
+      "SELL_Count": 0
+    }
+  },
+  "session_performance": {
+    "1.0": {
+      "Total_Trades": 5808,
+      "Avg_Profit": -0.9016,
+      "Win_Rate": 41.2534
+    },
+    "2.0": {
+      "Total_Trades": 3592,
+      "Avg_Profit": -0.419,
+      "Win_Rate": 39.2539
+    },
+    "0.0": {
+      "Total_Trades": 30,
+      "Avg_Profit": 0.0,
+      "Win_Rate": 0.0
+    }
+  },
+  "hourly_performance": {
+    "0": {
+      "Total_Trades": 654,
+      "Avg_Profit": 1.39,
+      "Win_Rate": 45.107
+    },
+    "1": {
+      "Total_Trades": 827,
+      "Avg_Profit": 1.6071,
+      "Win_Rate": 43.1681
+    },
+    "2": {
+      "Total_Trades": 338,
+      "Avg_Profit": -4.2591,
+      "Win_Rate": 39.3491
+    },
+    "3": {
+      "Total_Trades": 260,
+      "Avg_Profit": -2.136,
+      "Win_Rate": 38.4615
+    },
+    "4": {
+      "Total_Trades": 115,
+      "Avg_Profit": -2.3292,
+      "Win_Rate": 35.6522
+    },
+    "5": {
+      "Total_Trades": 241,
+      "Avg_Profit": -1.115,
+      "Win_Rate": 40.249
+    },
+    "6": {
+      "Total_Trades": 306,
+      "Avg_Profit": -2.8247,
+      "Win_Rate": 40.1961
+    },
+    "7": {
+      "Total_Trades": 312,
+      "Avg_Profit": -4.5312,
+      "Win_Rate": 35.8974
+    },
+    "8": {
+      "Total_Trades": 350,
+      "Avg_Profit": -2.7259,
+      "Win_Rate": 40.2857
+    },
+    "9": {
+      "Total_Trades": 293,
+      "Avg_Profit": -3.0235,
+      "Win_Rate": 38.9078
+    },
+    "10": {
+      "Total_Trades": 283,
+      "Avg_Profit": -1.4784,
+      "Win_Rate": 42.4028
+    },
+    "11": {
+      "Total_Trades": 319,
+      "Avg_Profit": -3.5232,
+      "Win_Rate": 38.558
+    },
+    "12": {
+      "Total_Trades": 735,
+      "Avg_Profit": -0.2365,
+      "Win_Rate": 45.7143
+    },
+    "13": {
+      "Total_Trades": 1107,
+      "Avg_Profit": -0.8411,
+      "Win_Rate": 37.85
+    },
+    "14": {
+      "Total_Trades": 1079,
+      "Avg_Profit": -1.8558,
+      "Win_Rate": 35.4958
+    },
+    "15": {
+      "Total_Trades": 744,
+      "Avg_Profit": 5.1023,
+      "Win_Rate": 47.7151
+    },
+    "16": {
+      "Total_Trades": 394,
+      "Avg_Profit": 1.5655,
+      "Win_Rate": 45.6853
+    },
+    "17": {
+      "Total_Trades": 294,
+      "Avg_Profit": -4.9744,
+      "Win_Rate": 32.9932
+    },
+    "18": {
+      "Total_Trades": 349,
+      "Avg_Profit": -5.4873,
+      "Win_Rate": 32.9513
+    },
+    "19": {
+      "Total_Trades": 251,
+      "Avg_Profit": 6.4067,
+      "Win_Rate": 40.239
+    },
+    "20": {
+      "Total_Trades": 149,
+      "Avg_Profit": -2.1768,
+      "Win_Rate": 42.953
+    },
+    "23": {
+      "Total_Trades": 30,
+      "Avg_Profit": 0.0,
+      "Win_Rate": 0.0
+    }
+  }
+}

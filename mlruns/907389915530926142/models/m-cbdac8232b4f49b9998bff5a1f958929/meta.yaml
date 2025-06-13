@@ -1,0 +1,10 @@
+artifact_location: file:E:/aiml/MLFLOW/mlruns/907389915530926142/models/m-cbdac8232b4f49b9998bff5a1f958929/artifacts
+creation_timestamp: 1749670712995
+experiment_id: '907389915530926142'
+last_updated_timestamp: 1749670717132
+model_id: m-cbdac8232b4f49b9998bff5a1f958929
+model_type: null
+name: GradientBoosting_is_profitable
+source_run_id: 1120623e694843d895702cf7040b243f
+status: 2
+status_message: null

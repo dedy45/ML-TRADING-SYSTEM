@@ -1,0 +1,10 @@
+artifact_location: file:E:/aiml/MLFLOW/mlruns/907389915530926142/models/m-a2406a88646d462e8dff7dfda232049d/artifacts
+creation_timestamp: 1749668283089
+experiment_id: '907389915530926142'
+last_updated_timestamp: 1749668286563
+model_id: m-a2406a88646d462e8dff7dfda232049d
+model_type: null
+name: LogisticRegression_is_profitable
+source_run_id: 6a7db38d5fb944aea4062a6e3b759e51
+status: 2
+status_message: null

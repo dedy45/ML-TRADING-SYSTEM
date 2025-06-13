@@ -1,0 +1,83 @@
+# Deep Learning Fibonacci Trading Requirements
+# TensorFlow/Keras stack for enhanced pattern recognition
+
+# Core Deep Learning
+tensorflow>=2.15.0
+keras>=2.15.0
+tensorflow-gpu>=2.15.0  # Optional: for GPU acceleration
+
+# Data Science & ML
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+scipy>=1.11.0
+
+# Visualization & Analysis
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+bokeh>=3.2.0
+
+# MLflow Experiment Tracking
+mlflow>=2.7.0
+mlflow[extras]>=2.7.0
+
+# Financial Data Processing
+ta-lib>=0.4.25  # Technical Analysis Library
+yfinance>=0.2.18
+pandas-ta>=0.3.14b
+
+# Performance & Optimization
+numba>=0.57.0
+joblib>=1.3.0
+cython>=3.0.0
+
+# Configuration & Utilities
+pyyaml>=6.0
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+click>=8.1.0
+
+# Jupyter Notebooks
+jupyter>=1.0.0
+ipykernel>=6.25.0
+ipywidgets>=8.1.0
+
+# Data Storage & Processing
+h5py>=3.9.0  # HDF5 for large datasets
+tables>=3.8.0  # PyTables for structured data
+pyarrow>=12.0.0  # Parquet file support
+feather-format>=0.4.1
+
+# Time Series Analysis
+statsmodels>=0.14.0
+arch>=5.3.0  # GARCH models
+prophet>=1.1.4  # Facebook Prophet
+
+# Deep Learning Visualization
+tensorboard>=2.15.0
+keras-tuner>=1.3.0  # Hyperparameter tuning
+
+# API & Web Services
+flask>=2.3.0
+fastapi>=0.103.0
+uvicorn>=0.23.0
+
+# Testing & Quality
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.7.0
+flake8>=6.0.0
+
+# Memory Management
+psutil>=5.9.0
+memory-profiler>=0.61.0
+
+# Parallel Processing
+dask>=2023.8.0
+ray>=2.6.0  # Optional: for distributed computing
+
+# Development Tools
+pre-commit>=3.3.0
+sphinx>=7.1.0  # Documentation
+sphinx-rtd-theme>=1.3.0
