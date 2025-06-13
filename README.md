@@ -1,68 +1,69 @@
+<!-- filepath: e:\aiml\MLFLOW\README.md -->
 # ML-TRADING-SIGNALS
-PROYEK Sistem Trading ML dengan Anaconda &amp; MLflow
-# Trading Machine Learning Pipeline with MLflow
+PROYEK Sistem Trading ML dengan Anaconda & MLflow
+# Saluran Pembelajaran Mesin Perdagangan dengan MLflow
 
-This project is a complete machine learning system for trading data analysis and signal prediction using MLflow for experiment tracking. Specifically designed for XAUUSD backtest data with focus on high win rate probabilities, clear risk-reward ratios, and long-term stability.
+Proyek ini adalah sistem pembelajaran mesin lengkap untuk analisis data perdagangan dan prediksi sinyal menggunakan MLflow untuk pelacakan eksperimen. Dirancang khusus untuk data backtest XAUUSD dengan fokus pada probabilitas tingkat kemenangan yang tinggi, rasio risiko-imbalan yang jelas, dan stabilitas jangka panjang.
 
-## 🎯 **Project Goals**
+## 🎯 **Tujuan Proyek**
 
-1. **High Win Rate Probability**: Identify trading patterns with win rate > 60%
-2. **Clear Risk Reward**: Optimize risk-reward ratios for maximum profitability  
-3. **Long-term Stability**: Consistent and reliable models
-4. **Quality Signal Output**: Generate actionable trading signals
+1. **Probabilitas Tingkat Kemenangan Tinggi**: Mengidentifikasi pola perdagangan dengan tingkat kemenangan > 60%
+2. **Risiko Imbalan yang Jelas**: Mengoptimalkan rasio risiko-imbalan untuk profitabilitas maksimum
+3. **Stabilitas Jangka Panjang**: Model yang konsisten dan andal
+4. **Keluaran Sinyal Berkualitas**: Menghasilkan sinyal perdagangan yang dapat ditindaklanjuti
 
-## ✅ **Current Status**
+## ✅ **Status Saat Ini**
 
-- ✅ **Advanced Pipeline Fixed**: All indentation errors resolved
-- ✅ **MLflow UI Running**: Experiment tracking at http://127.0.0.1:5000
-- ✅ **Multiple Models**: Random Forest, Gradient Boosting, Logistic Regression
-- ✅ **Feature Engineering**: 12+ trading-specific features implemented
-- ✅ **Experiment Tracking**: Full MLflow integration working
-- ✅ **Easy-to-Use Scripts**: Beginner-friendly automation tools
+- ✅ **Saluran Lanjutan Diperbaiki**: Semua kesalahan indentasi telah diselesaikan
+- ✅ **UI MLflow Berjalan**: Pelacakan eksperimen di http://127.0.0.1:5000
+- ✅ **Beberapa Model**: Random Forest, Gradient Boosting, Regresi Logistik
+- ✅ **Rekayasa Fitur**: 12+ fitur khusus perdagangan telah diimplementasikan
+- ✅ **Pelacakan Eksperimen**: Integrasi MLflow penuh berfungsi
+- ✅ **Skrip yang Mudah Digunakan**: Alat otomatisasi yang ramah bagi pemula
 
-## 🚀 **Quick Start - Choose Your Method**
+## 🚀 **Mulai Cepat - Pilih Metode Anda**
 
-### Method 1: Windows Batch File (Easiest for Beginners)
+### Metode 1: File Batch Windows (Paling Mudah untuk Pemula)
 ```batch
-# Double-click this file in Windows Explorer
+# Klik dua kali file ini di Windows Explorer
 start_experiments.bat
 ```
 
-### Method 2: Interactive Python Script
+### Metode 2: Skrip Python Interaktif
 ```bash
 python run_experiments.py
 ```
 
-### Method 3: Direct Pipeline Execution
+### Metode 3: Eksekusi Saluran Langsung
 ```bash
-# Simple pipeline (basic ML)
+# Saluran sederhana (ML dasar)
 python simple_ml_pipeline.py
 
-# Advanced pipeline with MLflow
+# Saluran lanjutan dengan MLflow
 python -c "from advanced_ml_pipeline import AdvancedTradingPipeline; p=AdvancedTradingPipeline(); p.run_complete_pipeline(10)"
 ```
 
-### Method 4: Check Project Status
+### Metode 4: Periksa Status Proyek
 ```bash
 python check_status.py
 ```
 
-## 📊 **View Your Results**
+## 📊 **Lihat Hasil Anda**
 
-1. **Start MLflow UI** (if not already running):
+1. **Mulai UI MLflow** (jika belum berjalan):
    ```bash
    python -m mlflow ui --port 5000
    ```
 
-2. **Open in browser**: http://127.0.0.1:5000
+2. **Buka di browser**: http://127.0.0.1:5000
 
-3. **Explore your experiments**:
-   - Compare model performance
-   - View feature importance
-   - Analyze trading signals
-   - Track experiment history
+3. **Jelajahi eksperimen Anda**:
+   - Bandingkan kinerja model
+   - Lihat pentingnya fitur
+   - Analisis sinyal perdagangan
+   - Lacak riwayat eksperimen
 
-### **Menjalankan Pipeline Lengkap**
+### **Menjalankan Saluran Lengkap**
 ```bash
 python main.py
 ```
@@ -71,88 +72,88 @@ python main.py
 ```bash
 mlflow ui --backend-store-uri ./mlruns --port 5000
 ```
-Buka browser ke `http://localhost:5000` untuk melihat experiment tracking.
+Buka browser ke `http://localhost:5000` untuk melihat pelacakan eksperimen.
 
-## 📊 **Features yang Dibuat**
+## 📊 **Fitur yang Dibuat**
 
-### **1. Technical Indicators**
-- Simple Moving Average (SMA): 5, 10, 20, 50 periode
-- Exponential Moving Average (EMA): 12, 26 periode
-- RSI (Relative Strength Index): 14 periode
+### **1. Indikator Teknis**
+- Simple Moving Average (SMA): Periode 5, 10, 20, 50
+- Exponential Moving Average (EMA): Periode 12, 26
+- RSI (Relative Strength Index): Periode 14
 - MACD (Moving Average Convergence Divergence)
 - Bollinger Bands dengan deviasi standar 2
 
-### **2. Time-based Features**
-- Hour, day of week, month encoding
-- Cyclical encoding (sin/cos transformations)
-- Trading session indicators (Asia, Europe, US)
-- Market overlap periods
+### **2. Fitur Berbasis Waktu**
+- Pengkodean jam, hari dalam seminggu, bulan
+- Pengkodean siklus (transformasi sin/cos)
+- Indikator sesi perdagangan (Asia, Eropa, AS)
+- Periode tumpang tindih pasar
 
-### **3. Risk Features**
-- Historical volatility (5, 10, 20 periode)
-- MAE/MFE statistics
-- Risk-reward ratios
+### **3. Fitur Risiko**
+- Volatilitas historis (periode 5, 10, 20)
+- Statistik MAE/MFE
+- Rasio risiko-imbalan
 - Skewness dan kurtosis
 
-### **4. Statistical Features**
-- Rolling statistics (mean, median, std, min, max)
-- Lag features (1, 2, 3, 5, 10 periode)
-- Quantile features (25%, 75%)
+### **4. Fitur Statistik**
+- Statistik bergulir (rata-rata, median, std, min, maks)
+- Fitur jeda (periode 1, 2, 3, 5, 10)
+- Fitur kuantil (25%, 75%)
 
-### **5. Interaction Features**
-- Price-volume interactions
-- Session-volatility interactions
-- Time-price interactions
+### **5. Fitur Interaksi**
+- Interaksi harga-volume
+- Interaksi sesi-volatilitas
+- Interaksi waktu-harga
 
 ## 🤖 **Model yang Digunakan**
 
-1. **XGBoost**: Gradient boosting dengan optimasi untuk trading
-2. **LightGBM**: Fast gradient boosting dengan memory efficiency
-3. **Random Forest**: Ensemble model untuk baseline comparison
+1. **XGBoost**: Gradient boosting dengan optimasi untuk perdagangan
+2. **LightGBM**: Gradient boosting cepat dengan efisiensi memori
+3. **Random Forest**: Model ansambel untuk perbandingan dasar
 
 Semua model dilacak menggunakan MLflow dengan:
-- Parameter logging
-- Metrics tracking
-- Model versioning
-- Feature importance analysis
+- Pencatatan parameter
+- Pelacakan metrik
+- Pembuatan versi model
+- Analisis pentingnya fitur
 
-## 📈 **Metrics Evaluasi**
+## 📈 **Metrik Evaluasi**
 
-### **Classification Metrics**
-- Accuracy, Precision, Recall, F1-Score
-- AUC-ROC untuk probabilitas prediction
+### **Metrik Klasifikasi**
+- Akurasi, Presisi, Perolehan Kembali, Skor-F1
+- AUC-ROC untuk prediksi probabilitas
 
-### **Trading-Specific Metrics**
-- **Win Rate**: Persentase trade yang profitable
-- **Profit Factor**: Rasio total profit vs total loss
-- **Risk-Reward Ratio**: Rata-rata profit vs rata-rata loss
-- **Maximum Drawdown**: Kerugian maksimal dari peak
-- **Sharpe Ratio**: Risk-adjusted return
-- **Expectancy**: Expected value per trade
+### **Metrik Khusus Perdagangan**
+- **Tingkat Kemenangan**: Persentase perdagangan yang menguntungkan
+- **Faktor Keuntungan**: Rasio total keuntungan vs total kerugian
+- **Rasio Risiko-Imbalan**: Rata-rata keuntungan vs rata-rata kerugian
+- **Penarikan Maksimum**: Kerugian maksimum dari puncak
+- **Rasio Sharpe**: Imbalan yang disesuaikan dengan risiko
+- **Harapan**: Nilai yang diharapkan per perdagangan
 
-### **Signal Quality Metrics**
-- Precision pada berbagai probability threshold
-- Signal frequency dan coverage
-- Stability metrics across time periods
+### **Metrik Kualitas Sinyal**
+- Presisi pada berbagai ambang probabilitas
+- Frekuensi dan cakupan sinyal
+- Metrik stabilitas lintas periode waktu
 
-## 🎯 **Target Variables**
+## 🎯 **Variabel Target**
 
-1. **is_profitable**: Trade menghasilkan profit (binary)
-2. **is_winning_trade**: Trade profit > 10 pips (binary)
+1. **is_profitable**: Perdagangan menghasilkan keuntungan (biner)
+2. **is_winning_trade**: Keuntungan perdagangan > 10 pips (biner)
 
 ## 📁 **Struktur Data**
 
-### **Input Data (dataBT)**
-- Symbol, Timestamp, Type (BUY/SELL)
-- OpenPrice, ClosePrice, Volume
-- Profit, MAE_pips, MFE_pips
-- ExitReason, Trading sessions
+### **Data Masukan (dataBT)**
+- Simbol, Stempel Waktu, Jenis (BELI/JUAL)
+- HargaBuka, HargaTutup, Volume
+- Keuntungan, MAE_pips, MFE_pips
+- AlasanKeluar, Sesi perdagangan
 
-### **Generated Features**
-- 100+ technical indicators
-- Time-based features
-- Risk metrics
-- Statistical features
+### **Fitur yang Dihasilkan**
+- 100+ indikator teknis
+- Fitur berbasis waktu
+- Metrik risiko
+- Fitur statistik
 
 ## 🔧 **Konfigurasi Model**
 
@@ -171,107 +172,107 @@ models:
       learning_rate: [0.01, 0.1, 0.2]
 ```
 
-## 📊 **MLflow Tracking**
+## 📊 **Pelacakan MLflow**
 
 MLflow melacak semua eksperimen dengan informasi:
 
-### **Parameters**
-- Model hyperparameters
-- Feature engineering settings
-- Data preprocessing parameters
+### **Parameter**
+- Hiperparameter model
+- Pengaturan rekayasa fitur
+- Parameter pra-pemrosesan data
 
-### **Metrics**
-- Training dan validation metrics
-- Trading performance metrics
-- Cross-validation scores
+### **Metrik**
+- Metrik pelatihan dan validasi
+- Metrik kinerja perdagangan
+- Skor validasi silang
 
-### **Artifacts**
-- Trained models
-- Feature importance plots
-- Performance reports
+### **Artefak**
+- Model terlatih
+- Plot pentingnya fitur
+- Laporan kinerja
 
-### **Model Registry**
-- Model versioning
-- Staging dan production deployment
-- Model comparison
+### **Registri Model**
+- Pembuatan versi model
+- Penerapan pentahapan dan produksi
+- Perbandingan model
 
 ## 🔍 **Analisis dan Interpretasi**
 
-### **Feature Importance**
-- Identifikasi fitur paling berpengaruh
-- Analisis kontribusi setiap kategori feature
-- Elimination fitur yang tidak relevan
+### **Pentingnya Fitur**
+- Mengidentifikasi fitur yang paling berpengaruh
+- Menganalisis kontribusi setiap kategori fitur
+- Menghilangkan fitur yang tidak relevan
 
-### **Model Performance**
-- Perbandingan performa antar model
-- Analisis stability across time
-- Identification of overfitting
+### **Kinerja Model**
+- Membandingkan kinerja antar model
+- Menganalisis stabilitas lintas waktu
+- Mengidentifikasi overfitting
 
-### **Trading Signal Analysis**
-- Kualitas signal pada berbagai threshold
-- Frekuensi signal vs accuracy trade-off
-- Risk-adjusted performance metrics
+### **Analisis Sinyal Perdagangan**
+- Kualitas sinyal pada berbagai ambang batas
+- Pertukaran frekuensi sinyal vs akurasi
+- Metrik kinerja yang disesuaikan dengan risiko
 
-## 📋 **Best Practices**
+## 📋 **Praktik Terbaik**
 
-### **Data Management**
-1. **Data Caching**: Automatic caching untuk faster iteration
-2. **Data Validation**: Quality checks untuk data integrity
-3. **Feature Versioning**: Track feature engineering changes
+### **Manajemen Data**
+1. **Caching Data**: Caching otomatis untuk iterasi yang lebih cepat
+2. **Validasi Data**: Pemeriksaan kualitas untuk integritas data
+3. **Pembuatan Versi Fitur**: Melacak perubahan rekayasa fitur
 
-### **Model Development**
-1. **Time-aware Validation**: TimeSeriesSplit untuk realistic evaluation
-2. **Feature Selection**: Systematic feature importance analysis
-3. **Hyperparameter Tuning**: Grid search dengan cross-validation
+### **Pengembangan Model**
+1. **Validasi Sadar Waktu**: TimeSeriesSplit untuk evaluasi yang realistis
+2. **Pemilihan Fitur**: Analisis pentingnya fitur secara sistematis
+3. **Penyetelan Hiperparameter**: Pencarian grid dengan validasi silang
 
-### **Risk Management**
-1. **Drawdown Monitoring**: Continuous tracking of maximum drawdown
-2. **Signal Filtering**: Quality thresholds untuk signal generation
-3. **Performance Monitoring**: Regular model performance evaluation
+### **Manajemen Risiko**
+1. **Pemantauan Penarikan**: Pelacakan berkelanjutan terhadap penarikan maksimum
+2. **Penyaringan Sinyal**: Ambang kualitas untuk pembuatan sinyal
+3. **Pemantauan Kinerja**: Evaluasi kinerja model secara berkala
 
 ## 🚨 **Peringatan dan Risiko**
 
-1. **Past Performance**: Historical results tidak guarantee future performance
-2. **Market Conditions**: Model performance dapat berubah dengan kondisi market
-3. **Risk Management**: Selalu gunakan stop loss dan position sizing yang proper
-4. **Overfitting**: Monitor untuk signs of overfitting pada unseen data
+1. **Kinerja Masa Lalu**: Hasil historis tidak menjamin kinerja di masa depan
+2. **Kondisi Pasar**: Kinerja model dapat berubah seiring kondisi pasar
+3. **Manajemen Risiko**: Selalu gunakan stop loss dan ukuran posisi yang tepat
+4. **Overfitting**: Pantau tanda-tanda overfitting pada data yang tidak terlihat
 
 ## 📈 **Rekomendasi Penggunaan**
 
-### **Untuk Win Rate Tinggi**
-- Gunakan threshold probability > 0.7 untuk high-confidence signals
-- Focus pada session overlap periods (European-US)
-- Consider volume confirmation untuk signal validation
+### **Untuk Tingkat Kemenangan Tinggi**
+- Gunakan ambang probabilitas > 0,7 untuk sinyal dengan keyakinan tinggi
+- Fokus pada periode tumpang tindih sesi (Eropa-AS)
+- Pertimbangkan konfirmasi volume untuk validasi sinyal
 
-### **Untuk Risk Management**
-- Set maximum drawdown limit 10%
-- Use risk-reward ratio minimal 2:1
-- Implement position sizing berdasarkan signal confidence
+### **Untuk Manajemen Risiko**
+- Tetapkan batas penarikan maksimum 10%
+- Gunakan rasio risiko-imbalan minimal 2:1
+- Terapkan ukuran posisi berdasarkan keyakinan sinyal
 
 ### **Untuk Stabilitas Jangka Panjang**
-- Retrain model setiap 3-6 bulan
-- Monitor feature drift dan market regime changes
-- Implement ensemble predictions untuk stability
+- Latih ulang model setiap 3-6 bulan
+- Pantau penyimpangan fitur dan perubahan rezim pasar
+- Terapkan prediksi ansambel untuk stabilitas
 
-## 🔄 **Monitoring dan Maintenance**
+## 🔄 **Pemantauan dan Pemeliharaan**
 
-1. **Regular Retraining**: Schedule model retraining
-2. **Performance Monitoring**: Track live performance vs backtest
-3. **Feature Monitoring**: Monitor untuk feature drift
-4. **Data Quality**: Continuous data quality checks
+1. **Pelatihan Ulang Reguler**: Jadwalkan pelatihan ulang model
+2. **Pemantauan Kinerja**: Lacak kinerja langsung vs backtest
+3. **Pemantauan Fitur**: Pantau penyimpangan fitur
+4. **Kualitas Data**: Pemeriksaan kualitas data berkelanjutan
 
-## 📞 **Support dan Development**
+## 📞 **Dukungan dan Pengembangan**
 
 Untuk pengembangan lebih lanjut:
-1. Implementasi real-time prediction pipeline
-2. Integration dengan trading platform
-3. Advanced ensemble methods
-4. Multi-timeframe analysis
-5. Portfolio optimization
+1. Implementasi saluran prediksi waktu-nyata
+2. Integrasi dengan platform perdagangan
+3. Metode ansambel lanjutan
+4. Analisis multi-kerangka waktu
+5. Optimasi portofolio
 
 ---
 
-**Note**: Project ini dirancang untuk educational dan research purposes. Selalu gunakan proper risk management dalam trading nyata.
+**Catatan**: Proyek ini dirancang untuk tujuan pendidikan dan penelitian. Selalu gunakan manajemen risiko yang tepat dalam perdagangan nyata.
 
 # ML-TRADING-SIGNALS
 PROYEK Sistem Trading ML dengan Anaconda &amp; MLflow
