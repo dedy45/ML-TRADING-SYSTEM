@@ -217,7 +217,8 @@ class SimpleTradingML:
                 print(f"💾 Model saved to: {model_file}")
             except ImportError:
                 print("⚠️ Joblib not available for model saving")
-      def run_complete_pipeline(self):
+    
+    def run_complete_pipeline(self):
         """Run complete simple pipeline"""
         print("Starting Simple Trading ML Pipeline")
         print("=" * 50)
