@@ -1,0 +1,14 @@
+SIMPLE ML TRADING MODEL SUMMARY
+========================================
+
+Accuracy: 58.33%
+Training samples: 140
+Test samples: 60
+Features used: 12
+
+TOP FEATURES:
+  mae_normalized       0.145
+  OpenPrice            0.134
+  price_change         0.133
+  price_range          0.113
+  mfe_normalized       0.108
